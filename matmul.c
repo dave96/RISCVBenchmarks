@@ -20,5 +20,5 @@ int main()
 		}
 	}
 
-	asm volatile("mret");
+	asm volatile("ecall");
 }

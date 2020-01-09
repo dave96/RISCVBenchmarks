@@ -8,5 +8,5 @@ int main() {
   for(i = 0; i < 128; i++)
     b[i] = a[i];
 
-  asm volatile("mret");
+  asm volatile("ecall");
 }
