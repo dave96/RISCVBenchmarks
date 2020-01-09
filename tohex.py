@@ -32,6 +32,3 @@ for line in lines:
         print(current_line)
         current_line = ""
         stride = 0
-
-if stride != 0:
-    print("WTF")
