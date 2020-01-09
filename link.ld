@@ -1,3 +1,4 @@
+__sp = 0x0200;
 
 SECTIONS
 {
@@ -10,7 +11,7 @@ SECTIONS
         *(.text)
     }
 
-    . = 0x800;
+    . = 0x0400;
     .data : {
         *(.sbss)
         *(COMMON)
