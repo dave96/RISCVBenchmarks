@@ -8,5 +8,6 @@ int main() {
   for(i = 0; i < 128; i++)
     b[i] = a[i];
 
+  asm volatile("csrwi 0x780, 1");
   asm volatile("ecall");
 }
